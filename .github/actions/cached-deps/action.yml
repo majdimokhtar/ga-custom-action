@@ -7,7 +7,7 @@ inputs:
     default: 'true'
 outputs:
   used-cache:
-  description: 'weather to cache used or not
+  description: 'weather to cache used or not'
   value: ${{ steps.install.outputs.cache }}
 runs:
   using: 'composite'
