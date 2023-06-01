@@ -5,7 +5,7 @@ inputs:
     description: 'weather to cache dependency or not'
     required: false
     default: 'true'
-output:
+outputs:
   used-cache:
   description: 'weather to cache used or not
   value: ${{ steps.install.outputs.cache }}
